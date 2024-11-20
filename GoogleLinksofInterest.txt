@@ -1,5 +1,11 @@
 https://familylink.google.com/versions/20241029.05_RC00/assets/FontManifest.json 200
 https://support.google.com/photos/thread/221280030/google-photos-archive?hl=en 200
+https://translate.google.com/?sl=en&tl=sv&text=i%20am%20learning%20swedish&op=translate
+
+
+https://www.google.com/search?q=site:familylink.google.com&newwindow=1&sca_esv=4a970ced550d570a&rlz=1C5GCEM_enUS1007US1007&filter=0&biw=1230&bih=775&dpr=2.5&num=100
+view-source:https://docs.google.com/document/u/0/d/1bituvSPec-QAk66oKt6W3URRs0tbhv5RmroVwni_KT8/edit?tab=t.0&pli=1&authuser=0
+https://www.google.com/recaptcha/api.js?trustedtypes=true&render=6LfVMP0UAAAAAJxBwcn64HVHFQX67SYchKxjvEuc
 
 https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=369dc375fc&view=att&th=129e760a1900646b&attid=0.1&disp=fail&zw&saduie=AG9B_P-cq_VyvLhmtZI0zVfolEh4&sadet=1279494014570&sads=-aMWheW_zm5UfYTDi3vN0bIKEdQ&sadnir=3&saddbat=ANGjdJ_YhjwV0KCK_waGtk3hw92kYAR1JuWuEGu9sRJ6WHMtRn3olCy89hJrh3Nngv5v8jAHZRJJLzDuZ9e0Bk4JHRnMDM5Xt8WrPg6b6JwGNuKR6i37A_hIkJYYZOpyE6R3pCHErOu9QPrKBMVwsc0OnYsqiNSSJQlSqCGQs1X8MAlCAwLAtX6MnZziiCST_zUTOd5mCOD6hMa-dLeRoZ-eN8GkFOpqLb53hsghE2Epy9d2ngL6vhubC4tMZWf7tMew2YOrzlSD0g1M-rWst4-oVeFrppONY5cAaRDu4fnEYgthHhYKisiFm7CWFQrQwkquSRsFvecu8bdo0wZYe6pXZVJ2Ge9xDPsv2Tj1LReMh4GN9Rf7tTBFieAdi4w_ObgqOTRmERw6DJUUGM370nwomDIBHGdWbAYz8DBcBCs6dkQYQlwneuLfADss6yigD4TpCbjj5c_3o4nX6BOHqqMCET5LjrW1J7hCghWxhzuMEBcsRXKn75yqjIKNoBSD_f9XptMHB9OB4p07IUnqoaKzXZiAFS0-jyBTuy7hdCJeAmak_5DrmTkTT9x8JLsdMbDU44RZBWIh4vKC9UAh86hWXJlxDY3mYuMg1C3QehmrVmH3N1swmCnU0-fAXlASobhg3CXh6Qo5jzgYxF57l-YDLpQsuIJe9c1AtUx-vwJKzRgmxDja-AICInpxcMCXRpN3SJ5d9YzFKhTkXXPvgbCl6_SN35kdBTSoFbFKeHSRUekY343Ke2INzGFzuHIqKaQE-pNRmfRyyfmv63PC45CcS3YRN0ffYJzXmszNNdFm7gP2PVXGHyz8nESP2CQUF05h-bCnPsC_Atfyz7ZBkelh0itM5nnRCStp9_MCOV9tMacbxIcx8ak3CN2j0Jwy-_5IqRrknK1mx1Slir_YC5Tk49nqPIxk457ylr8JUwDnlL4FFAGnn45deYCLyuLfU9lMNpHV1ZUfOEF8obd7p3ei8oNfPZvAGxwPhoCOFloPk_RIOLgI3Vmb7rncBq8JyXbLWow7tmOk1MarfSfN
 
@@ -26,6 +32,13 @@ https://search.dnslytics.com/ip/142.250.27.26
 
 
 https://mta-sts.googlemail.com/.well-known/mta-sts.txt
+version: STSv1
+mode: enforce
+mx: gmail-smtp-in.l.google.com
+mx: *.gmail-smtp-in.l.google.com
+max_age: 86400
+
+
 
 
 Google Headers: https://cloud.google.com/load-balancing/docs/https#x-forwarded-for_header
