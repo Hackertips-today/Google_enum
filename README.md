@@ -35,4 +35,4 @@
 - **x-goog-stored-content-encoding:** `gzip`
 - **x-goog-stored-content-length:** `1527`
 - **x-guploader-uploadid:** `AHmUCY3C3kddcNe0csLNnsp0xAWJ6M6C6XczgZS8PDfy7IEUdI5knR4d4m4Nng64RCwayKCRfNY`
-- **Server:** `cloudflare`
+
