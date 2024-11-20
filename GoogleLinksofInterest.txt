@@ -9,7 +9,26 @@ https://familylink.google.com/onboarding/fork
 https://www.google.com/appsstatus/dashboard/
 https://www.gstatic.com/_/apps-viewer/_/js/k=apps-viewer.standalone.en.iJtOThgWUAI.O/am=DgY/d=1/rs=AC2dHMKzWD5_zwSCnl5s4g-ITXvC7QCMZQ/m=main
 
-https://gweb-cloud-chat-prod.appspot.com/chat/bot
+https://gweb-cloud-chat-prod.appspot.com/chat/bot - 200 - Direct chatbot
+
+https://www.google.com/recaptcha/api.js?trustedtypes=true&render=6LfVMP0UAAAAAJxBwcn64HVHFQX67SYchKxjvEuc
+/* PLEASE DO NOT COPY AND PASTE THIS CODE. */
+(function(){var w=window,C='___grecaptcha_cfg',cfg=w[C]=w[C]||{},N='grecaptcha';var gr=w[N]=w[N]||{};gr.ready=gr.ready||function(f){(cfg['fns']=cfg['fns']||[]).push(f);};w['__recaptcha_api']='https://www.google.com/recaptcha/api2/';(cfg['render']=cfg['render']||[]).push('6LfVMP0UAAAAAJxBwcn64HVHFQX67SYchKxjvEuc');w['__google_recaptcha_client']=true;var d=document,po=d.createElement('script');po.type='text/javascript';po.async=true; po.charset='utf-8';var v=w.navigator,m=d.createElement('meta');m.httpEquiv='origin-trial';m.content='A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9';if(v&&v.cookieDeprecationLabel){v.cookieDeprecationLabel.getValue().then(function(l){if(l!=='treatment_1.1'&&l!=='treatment_1.2'&&l!=='control_1.1'){d.head.prepend(m);}});}else{d.head.prepend(m);}var s='https://www.gstatic.com/recaptcha/releases/-ZG7BC9TxCVEbzIO2m429usb/recaptcha__en.js',tt=w.trustedTypes,cp=tt&&tt.createPolicy,cp=cp&&cp.bind(tt); po.src=cp?cp('recaptcha', {createScriptURL:function(_){return s;}}).createScriptURL(''):s;po.crossOrigin='anonymous';po.integrity='sha384-gaZtYaI7oJHEOo1YO6VuoCE4iZ5fMV9mYHP0BHf+r2ttABnpWWCIkgI6ItNW4ZdO';var e=d.querySelector('script[nonce]'),n=e&&(e['nonce']||e.getAttribute('nonce'));if(n){po.setAttribute('nonce',n);}var s=d.getElementsByTagName('script')[0];s.parentNode.insertBefore(po, s);})();
+
+https://www.google.com/recaptcha/api.js?trustedtypes=true&render=6LfVMP0UAAAAAJxBwcn64HVHFQX67SYchKxjvEuc
+https://www.google.com/recaptcha/api.js?trustedtypes=true&render=6LfVMP0UAAAAAJxBwcn64HVHFQX67SYchKxjvEuc
+view-source:https://docs.google.com/document/u/0/d/1bituvSPec-QAk66oKt6W3URRs0tbhv5RmroVwni_KT8/edit?tab=t.0&pli=1&authuser=0
+
+
+https://cast.google.com/publish/&dsh=S-49938235:1689143480232967&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://cast.google.com/publish/&ifkv=AeDOFXg8qmn9UL2pVLZ9oYu1iQGg9biI14I6CwYLJbhCoGlAJuRQ3WCKJ-tp7L56AfFiGJq5tvKG&ltmpl=castdevconsole
+
+https://search.dnslytics.com/ip/142.250.27.26
+
+
+https://mta-sts.googlemail.com/.well-known/mta-sts.txt
+
+
+Google Headers: https://cloud.google.com/load-balancing/docs/https#x-forwarded-for_header
 
 
 
