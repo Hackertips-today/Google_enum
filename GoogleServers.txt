@@ -16,3 +16,4 @@ developers.google.com :: Google Frontend
 analytics.google.com :: Server: Golfe2
 maps.googleapis.com :: Server:  Playlog
 waa-pa.clients6.google.com :: ESF
+faamilylink.google.com : sffe
