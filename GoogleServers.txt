@@ -1,19 +1,30 @@
-www.google.com ?? gws
-www.googletagmanager.com :: Google Tag Manager
- region1.analytics.google.com :: Golfe2
-health.google :: sffe
-ajax.googleapis.com :: sff
-drive.google.com :: ESF
- content.googleapis.com :: ESF
-commondatastorage.googleapis.com :: Upload Server
-support.google.com :: support-content-ui
-jobs.google.com :: sffe
+GOOGLE WEB SERVICE:
+-------------------
 accounts.google.com :: ESF
-makersuite.google.com :: ESF
-moltron-pa.clients6.google.com :: ESF
-feedback-pa.clients6.google.com :: ESF
-developers.google.com :: Google Frontend
+addons-pa.clients6.google.com :: ESF
 analytics.google.com :: Server: Golfe2
+ajax.googleapis.com :: sffe
+
+content.googleapis.com :: ESF
+commondatastorage.googleapis.com :: Upload Server
+developers.google.com :: Google Frontend
+dlp.googleapis.com :: ESF
+drive.google.com :: ESF
+familylink.google.com : sffe
+feedback-pa.clients6.google.com :: ESF
+health.google :: sffe
+jobs.google.com :: sffe
+
+makersuite.google.com :: ESF
 maps.googleapis.com :: Server:  Playlog
+moltron-pa.clients6.google.com :: ESF
+region1.analytics.google.com :: Golfe2
+support.google.com :: support-content-ui
+
 waa-pa.clients6.google.com :: ESF
-faamilylink.google.com : sffe
+www.google.com :: gws
+
+
+OAuth 2 access token
+
+
