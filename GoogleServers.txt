@@ -1,6 +1,11 @@
 www.google.com ?? gws
 www.googletagmanager.com :: Google Tag Manager
 health.google :: sffe
+ajax.googleapis.com :: sff
+drive.google.com :: ESF
+ content.googleapis.com :: ESF
+commondatastorage.googleapis.com :: Upload Server
+support.google.com :: support-content-ui
 jobs.google.com :: sffe
 accounts.google.com :: ESF
 makersuite.google.com :: ESF
