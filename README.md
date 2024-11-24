@@ -45,9 +45,14 @@
 - **Vary: referer
 - **Vary: x-origin
 - **Access-Control-Expose-Headers: content-encoding,date,server,content-length,vary,vary,vary
-
+- **X-Javascript-User-Agent: google-api-javascript-client/1.1.0
+- **User-Agent: google-api-javascript-client/1.1.0
+- **X-Cloud-Trace-Context: 3b9e6....bbbb4e6b5de7d188479311
 ---
 ## Madatory Cookies for Google Authentication
+ SAPISID
+ APISID
+ __Secure-3PAPISID
  SOCS
  S
  AEC
