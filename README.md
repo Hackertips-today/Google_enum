@@ -24,9 +24,8 @@
 - **X-Frame-Options:** `deny`
 
 ---
-
 ## Custom Google Response Headers
-
+- **X-Supportcontent-Allowapicookieauth: 'true'
 - **x-goog-generation:** `1686839683298295`
 - **x-goog-hash:** `crc32c=VhEI8Q==`
 - **x-goog-hash:** `md5=kpgpWibNC7ksF/7EhKcrIA==`
@@ -35,4 +34,34 @@
 - **x-goog-stored-content-encoding:** `gzip`
 - **x-goog-stored-content-length:** `1527`
 - **x-guploader-uploadid:** `AHmUCY3C3kddcNe0csLNnsp0xAWJ6M6C6XczgZS8PDfy7IEUdI5knR4d4m4Nng64RCwayKCRfNY`
+- **x-goog-generation: 1415838198105000
+- **x-goog-stored-content-encoding: identity
+- **x-goog-stored-content-length: 2332179
+- **x-goog-hash: crc32c=HfXXXX==
+- **x-goog-hash: md5=SrWAtu+ZXXXXpGPOJAMvfQ==
+- **x-goog-storage-class: STANDARD
+- **Access-Control-Allow-Origin: https://<host>
+- **Vary: origin
+- **Vary: referer
+- **Vary: x-origin
+- **Access-Control-Expose-Headers: content-encoding,date,server,content-length,vary,vary,vary
 
+---
+## Madatory Cookies for Google Authentication
+ SOCS
+ S
+ AEC
+ __Secure-ENID
+ NID
+ SUPPORT_CONTENT
+ _ga_H30R9PNQFN   # Google Analytic Related
+ _gid
+ _gat_gtag_UA_175894890_5
+ _ga_H30R9PNQFN
+ _ga
+ _ga_H30R9PNQFN
+ _gid
+ _gat_gtag_UA_175894890_5
+ _ga_H30R9PNQFN
+ _ga
+ 
