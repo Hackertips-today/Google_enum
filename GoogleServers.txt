@@ -1,5 +1,6 @@
 www.google.com ?? gws
 www.googletagmanager.com :: Google Tag Manager
+ region1.analytics.google.com :: Golfe2
 health.google :: sffe
 ajax.googleapis.com :: sff
 drive.google.com :: ESF
