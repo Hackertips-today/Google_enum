@@ -1,10 +1,11 @@
 GOOGLE WEB SERVICE:
 -------------------
-accounts.google.com :: ESF
+accounts.google.com :: GSE
 addons-pa.clients6.google.com :: ESF
 analytics.google.com :: Server: Golfe2
 ajax.googleapis.com :: sffe
 
+cloud.google.com ::  ESF
 content.googleapis.com :: ESF
 commondatastorage.googleapis.com :: Upload Server
 developers.google.com :: Google Frontend
@@ -18,6 +19,7 @@ jobs.google.com :: sffe
 makersuite.google.com :: ESF
 maps.googleapis.com :: Server:  Playlog
 moltron-pa.clients6.google.com :: ESF
+play.google.com :: Playlog
 region1.analytics.google.com :: Golfe2
 support.google.com :: support-content-ui
 
