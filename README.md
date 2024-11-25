@@ -49,24 +49,33 @@
 - **User-Agent: google-api-javascript-client/1.1.0
 - **X-Cloud-Trace-Context: 3b9e6....bbbb4e6b5de7d188479311
 ---
-## Madatory Cookies for Google Authentication
- SAPISID
- APISID
- __Secure-3PAPISID
- SOCS
- S
- AEC
- __Secure-ENID
- NID
- SUPPORT_CONTENT
- _ga_H30R9PNQFN   # Google Analytic Related
- _gid
- _gat_gtag_UA_175894890_5
- _ga_H30R9PNQFN
- _ga
- _ga_H30R9PNQFN
- _gid
- _gat_gtag_UA_175894890_5
- _ga_H30R9PNQFN
- _ga
- 
+X-Playlog-Web,authorization,authorization,x-goog-authuser,origin
+X-Playlog-Web,authorization,authorization,content-encoding,content-type,x-goog-authuser,origin
+X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
+
+
+ addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations
+ authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent
+
+#
+# accounts
+
+X-Client-Data: CN7dygE=
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="131", "Not_A Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Full-Version: ""
+Sec-Ch-Ua-Arch: ""
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Ch-Ua-Platform-Version: ""
+Sec-Ch-Ua-Model: ""
+Sec-Ch-Ua-Bitness: ""
+Sec-Ch-Ua-Wow64: ?0
+Sec-Ch-Ua-Full-Version-List: 
+Sec-Ch-Ua-Form-Factors: 
+Referer: https://localhost/
+Accept-Encoding: gzip, deflate, br, zstd
+Priority: u=0, i
