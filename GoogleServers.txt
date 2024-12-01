@@ -9,6 +9,8 @@ cloud.google.com ::  ESF
 content.googleapis.com :: ESF
 commondatastorage.googleapis.com :: Upload Server
 developers.google.com :: Google Frontend
+https://developerprofiles-pa.clients6.google.com :: ESF
+
 dlp.googleapis.com :: ESF
 drive.google.com :: ESF
 familylink.google.com : sffe
