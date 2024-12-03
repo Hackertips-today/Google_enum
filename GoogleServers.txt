@@ -23,12 +23,13 @@ familylink.google.com : sffe
 feedback-pa.clients6.google.com :: ESF
 health.google :: sffe
 jobs.google.com :: sffe
-
+lens.google.com :: sffe - UTF-8
 makersuite.google.com :: ESF
 maps.googleapis.com :: Server:  Playlog
 moltron-pa.clients6.google.com :: ESF
 play.google.com :: Playlog
 region1.analytics.google.com :: Golfe2
+santatracker.google.com : sffe
 support.google.com :: support-content-ui
 
 waa-pa.clients6.google.com :: ESF
