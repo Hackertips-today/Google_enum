@@ -1,18 +1,24 @@
 GOOGLE WEB SERVICE:
 -------------------
-accounts.google.com :: GSE
+about.google.com :: sffe
+accounts.google.com :: ESF - UTF-8
 addons-pa.clients6.google.com :: ESF
-analytics.google.com :: Server: Golfe2
+admin.google.com :: HTTP server (unknown) - UTF-8
+analytics.google.com :: Golfe2
 ajax.googleapis.com :: sffe
-
+csp.withgoogle.com :: ESF
+clients6.google.com :: ESF - UTF-8
 cloud.google.com ::  ESF
 content.googleapis.com :: ESF
 commondatastorage.googleapis.com :: Upload Server
 developers.google.com :: Google Frontend
-https://developerprofiles-pa.clients6.google.com :: ESF
+developerprofiles-pa.clients6.google.com :: ESF
+developerscontentsearch-pa.clients6.google.com :: ESF - UTF-8
 
 dlp.googleapis.com :: ESF
 drive.google.com :: ESF
+www.googletagmanager.com :: Google Tag Manager / UTF-8
+
 familylink.google.com : sffe
 feedback-pa.clients6.google.com :: ESF
 health.google :: sffe
@@ -27,8 +33,11 @@ support.google.com :: support-content-ui
 
 waa-pa.clients6.google.com :: ESF
 www.google.com :: gws
+www.google-analytics.com :: sffe / Golfe2 [?]
+
 
 
 OAuth 2 access token
+
 
 
