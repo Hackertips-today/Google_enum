@@ -52,7 +52,7 @@
 X-Playlog-Web,authorization,authorization,x-goog-authuser,origin
 X-Playlog-Web,authorization,authorization,content-encoding,content-type,x-goog-authuser,origin
 X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
-
+access-control-allow-headers: X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
 
  addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations
  authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent
