@@ -8,6 +8,7 @@ analytics.google.com :: Golfe2
 ajax.googleapis.com :: sffe
 csp.withgoogle.com :: ESF
 clients6.google.com :: ESF - UTF-8
+chromewebstore.google.com :: ESF
 cloud.google.com ::  ESF
 content.googleapis.com :: ESF
 commondatastorage.googleapis.com :: Upload Server
@@ -35,6 +36,7 @@ support.google.com : support-content-ui / UTF-8
 waa-pa.clients6.google.com :: ESF
 www.google.com :: gws
 www.google-analytics.com :: sffe / Golfe2 [?]
+www.googleadservices.com :: adclick_server - ISO-8859-1
 
 
 
