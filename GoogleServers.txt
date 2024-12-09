@@ -2,7 +2,7 @@ GOOGLE WEB SERVICE:
 -------------------
 about.google.com :: sffe
 accounts.google.com :: ESF - UTF-8
-addons-pa.clients6.google.com :: ESF
+addons-pa.clients6.google.com :: ESF    
 admin.google.com :: HTTP server (unknown) - UTF-8
 analytics.google.com :: Golfe2
 ajax.googleapis.com :: sffe
@@ -28,6 +28,7 @@ lens.google.com :: sffe - UTF-8
 makersuite.google.com :: ESF
 maps.googleapis.com :: Server:  Playlog
 moltron-pa.clients6.google.com :: ESF
+partnersdirectory.withgoogle.com :: Google Frontend :: UTF-8
 play.google.com :: Playlog
 region1.analytics.google.com :: Golfe2
 santatracker.google.com : sffe
