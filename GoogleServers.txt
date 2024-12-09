@@ -37,13 +37,9 @@ support.google.com :: support-content-ui / UTF-8
 toolbox.google.com :: apps-toolbox :: UTF-8
 toolbox.googleapps.com :: apps-toolbox :: UTF-8
 waa-pa.clients6.google.com :: ESF
-www.google.com :: gws
+www.google.com :: gws :: UTF-8
 www.google-analytics.com :: sffe / Golfe2 [?]
 www.googleadservices.com :: adclick_server - ISO-8859-1
-
-
-
-OAuth 2 access token
 
 
 
