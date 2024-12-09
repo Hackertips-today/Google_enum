@@ -48,6 +48,9 @@ toolbox.google.com :: apps-toolbox :: UTF-8
 toolbox.googleapps.com :: apps-toolbox :: UTF-8
 waa-pa.clients6.google.com :: ESF
 www.google.com :: gws :: UTF-8
+www.google.com/maps :: gws: :: ISO-8859-1
+
+https://www.google.com/robots.txt :: sffe
 www.google-analytics.com :: sffe / Golfe2 [?]
 www.googleadservices.com :: adclick_server - ISO-8859-1
 www.googletagmanager.com :: Google Tag Manager - UTF-8
