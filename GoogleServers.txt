@@ -1,4 +1,14 @@
-GOOGLE WEB SERVICE:
+
+ _____                   _         _____                              
+|  __ \                 | |       /  ___|                             
+| |  \/ ___   ___   __ _| | ___   \ `--.  ___ _ ____   _____ _ __ ___ 
+| | __ / _ \ / _ \ / _` | |/ _ \   `--. \/ _ \ '__\ \ / / _ \ '__/ __|
+| |_\ \ (_) | (_) | (_| | |  __/  /\__/ /  __/ |   \ V /  __/ |  \__ \
+ \____/\___/ \___/ \__, |_|\___|  \____/ \___|_|    \_/ \___|_|  |___/
+                    __/ |       GOOGLE WEB SERVICE Hostname Breakdown                                   
+                   |___/                                             
+
+
 -------------------
 about.google.com :: sffe
 accounts.google.com :: ESF - UTF-8
@@ -19,8 +29,7 @@ developerscontentsearch-pa.clients6.google.com :: ESF - UTF-8
 
 dlp.googleapis.com :: ESF
 drive.google.com :: ESF
-www.googletagmanager.com :: Google Tag Manager / UTF-8
-
+fonts.google.com :: SFFE - UTF-8
 familylink.google.com : sffe
 feedback-pa.clients6.google.com :: ESF
 health.google :: sffe
@@ -31,6 +40,7 @@ maps.googleapis.com :: Server:  Playlog
 moltron-pa.clients6.google.com :: ESF
 partnersdirectory.withgoogle.com :: Google Frontend :: UTF-8
 play.google.com :: Playlog
+play-lh.googleusercontent.com :: fife :: UTF-8 * *
 region1.analytics.google.com :: Golfe2 :: UTF-8
 santatracker.google.com : sffe
 support.google.com :: support-content-ui / UTF-8
@@ -40,6 +50,9 @@ waa-pa.clients6.google.com :: ESF
 www.google.com :: gws :: UTF-8
 www.google-analytics.com :: sffe / Golfe2 [?]
 www.googleadservices.com :: adclick_server - ISO-8859-1
+www.googletagmanager.com :: Google Tag Manager - UTF-8
+www.gstatic.com :: sffe :: UTF-8
+ 
 
 
 
