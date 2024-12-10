@@ -21,6 +21,7 @@ csp.withgoogle.com :: ESF
 clients6.google.com :: ESF - UTF-8
 chromewebstore.google.com :: ESF
 cloud.google.com ::  ESF
+cert-test.sandbox.google.com :: sffe
 content.googleapis.com :: ESF
 commondatastorage.googleapis.com :: Upload Server
 developers.google.com :: Google Frontend
