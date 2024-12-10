@@ -1,0 +1,44 @@
+You can add this in the browser's developer tools console as a one-liner to dynamically load the <link> and <script> elements:
+
+javascript
+Copy code
+document.head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" type="text/css" href="//w
+
+
+ /HeadlessChrome|PhantomJS|Yandex|uknowva-app|GoogleSecurityScanner/
+
+
+  R("Chromium") <= 48 ||
+              R("Firefox") <= 30 ||
+              R("Safari") <= 9 ||
+              R("Microsoft Edge") <= 15 ||
+              e.indexOf(
+                "Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:60.0) Gecko/20100101 /60.0",
+              ) >= 0 ||
+              (a.m && !/\.google\./.test(a.m)) ||
+              c.indexOf("zCommon") >= 0 ||
+              c.indexOf("changeMakerView is 
+
+
+
+ www.google.com/maps/rpc/blockaddomain?authuser=0&hl=en&gl=us
+/maps/rpc/rapfeatures?authuser=0&hl=en&gl=us
+/maps/rpc/merchantstatus?authuser=0&hl=en&gl=us
+/maps/rpc/transit/lines?authuser=0&hl=en&gl=us
+/maps/rpc/placeinsights?authuser=0&hl=en&gl=us
+/maps/timeline/_rpc/sync?authuser=0&hl=en&gl=us
+/maps/rpc/getugcpost?authuser=0&hl=en&gl=us
+/maps/rpc/listugcposts?authuser=0&hl=en&gl=us
+/maps/rpc/deletesearchhistorysuggest?authuser=0&hl=en&gl=us
+/maps/rpc/getplaceugcpostinfo?authuser=0&hl=en&gl=us
+/maps/rpc/writeriddleranswer?authuser=0&hl=en&gl=us
+/maps/rpc/writemultiplechoiceanswer?authuser=0&hl=en&gl=us
+/maps/rpc/deletepersonalactivitiesbyplace?authuser=0&hl=en&gl=us
+/maps/rpc/listpersonalactivitiesbyplace?authuser=0&hl=en&gl=us
+/maps/rpc/updatealias?authuser=0&hl=en&gl=us
+/maps/rpc/suggestalongroute?authuser=0&hl=en&gl=us
+/maps/rpc/batchdeleteanswers?authuser=0&hl=en&gl=us
+/maps/rpc/deleteugcpost?authuser=0&hl=en&gl=us
+/maps/rpc/voteugcpost?authuser=0&hl=en&gl=us
+/maps/rpc/plantrip?authuser=0&hl=en&gl=us
+
