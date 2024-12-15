@@ -121,3 +121,25 @@ Sec-Ch-Ua-Form-Factors:
 Referer: https://localhost/
 Accept-Encoding: gzip, deflate, br, zstd
 Priority: u=0, i
+
+## Try these headers
+Client-Protocol: HTTP/2, HTTP/1.1, QUIC
+Content-Length: 0, 512, 1024, 2048
+Content-Type: application/json, application/xml, text/plain, text/html
+X-Bandwidth-Est: 5000, 10000, 20000, 50000
+X-Bandwidth-Est2: 5000, 10000, 20000, 50000
+X-Bandwidth-Est3: 5000, 10000, 20000, 50000
+X-Bandwidth-App-Limited: 0, 1
+X-Bandwidth-Est-App-Limited: 0, 1
+X-Bandwidth-Est-Comp: 3000, 6000, 12000, 24000
+X-Bandwidth-Avg: 4000, 8000, 16000, 32000
+X-Head-Time-Millis: 0, 500, 1000, 1500
+X-Head-Time-Sec: 0, 1, 2, 5
+X-Head-Seqnum: 1, 10, 100, 1000
+X-Response-Itag: 18, 22, 36, 37, 135, 136, 137
+X-Restrict-Formats-Hint: mp4, webm, 3gp, flv
+X-Sequence-Num: 1, 2, 3, 10, 20, 30
+X-Segment-Lmt: 0, 10000, 20000, 50000
+X-Walltime-Ms: 0, 500, 1000, 5000, 10000
+
+
