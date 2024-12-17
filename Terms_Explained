@@ -1,0 +1,32 @@
+
+----------------------------------------------------------------
+ ▗▄▄▖ ▗▄▖  ▗▄▖  ▗▄▄▖▗▖   ▗▄▄▄▖    ▗▄▄▄▖▗▄▄▄▖▗▄▄▖ ▗▖  ▗▖▗▄▄▄▄▖
+▐▌   ▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌   ▐▌         █  ▐▌   ▐▌ ▐▌▐▛▚▞▜▌   ▗▞▘
+▐▌▝▜▌▐▌ ▐▌▐▌ ▐▌▐▌▝▜▌▐▌   ▐▛▀▀▘      █  ▐▛▀▀▘▐▛▀▚▖▐▌  ▐▌ ▗▞▘  
+▝▚▄▞▘▝▚▄▞▘▝▚▄▞▘▝▚▄▞▘▐▙▄▄▖▐▙▄▄▖      █  ▐▙▄▄▖▐▌ ▐▌▐▌  ▐▌▐▙▄▄▄▖
+----------------------------------------------------------------
+      [ Google Terms and Acronyms Explained ]
+
+*** Google Workspace
+** Client-side encryption (CSE) 
+   - feature that adds an extra layer of encryption to Google Workspace data    
+     such as files and emails. 
+   - provides end-to-end encryption [ not accessible by Google/third parties ] 
+
+To enable CSE for an organization, you can: 
+Go to the Google Workspace Admin Console
+Select Security
+Select Access and data control
+Select Client-side encryption
+Scroll to the Apps section
+Choose the apps to enable encryption for
+Select a key access service partner, such as:
+Flowcrypt
+Futurex
+Thales
+Virtru
+CSE is especially useful for organizations that store sensitive or regulated data, such as: intellectual property, healthcare records, and financial data. 
+CSE provides the following benefits: 
+End-to-end encryption: Google cannot decrypt your files.
+Control over access: Your domain administrator can control which groups and individuals can use encryption.
+In-app prompts: Your administrator can recommend that new files are created using CSE via in-app prompts.
