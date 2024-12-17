@@ -27,12 +27,12 @@ commondatastorage.googleapis.com :: Upload Server
 developers.google.com :: Google Frontend
 developerprofiles-pa.clients6.google.com :: ESF
 developerscontentsearch-pa.clients6.google.com :: ESF - UTF-8
-
 dlp.googleapis.com :: ESF
 drive.google.com :: ESF
 fonts.google.com :: SFFE - UTF-8
 familylink.google.com : sffe
 feedback-pa.clients6.google.com :: ESF
+googlevideo.com :: gvs 1.0
 health.google :: sffe
 jobs.google.com :: sffe
 lens.google.com :: sffe - UTF-8
@@ -50,13 +50,11 @@ toolbox.googleapps.com :: apps-toolbox :: UTF-8
 waa-pa.clients6.google.com :: ESF
 www.google.com :: gws :: UTF-8
 www.google.com/maps :: gws: :: ISO-8859-1
-
-https://www.google.com/robots.txt :: sffe
+www.google.com/robots.txt :: sffe
 www.google-analytics.com :: sffe / Golfe2 [?]
 www.googleadservices.com :: adclick_server - ISO-8859-1
 www.googletagmanager.com :: Google Tag Manager - UTF-8
 www.gstatic.com :: sffe :: UTF-8
  
 
-
-
+--- IF YOU KNOW MORE LEMMIE KNOW
