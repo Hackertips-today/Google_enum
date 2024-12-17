@@ -108,11 +108,7 @@ authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent
 
 ## Googlevideo headers
 #### rr3---sn-2imern7d.googlevideo.com
-### Client-Protocol, Content-Length, Content-Type, X-Bandwidth-Est, X-Bandwidth-Est2, X-Bandwidth-Est3, X-Bandwidth-App-Limited, X-Bandwidth-Est-App-Limited, X-Bandwidth-Est-Comp, X-Bandwidth-Avg, X-Head-Time-Millis, X-Head-Time-Sec, X-Head-Seqnum, X-Response-Itag, X-Restrict-Formats-Hint, X-Sequence-Num, X-Segment-Lmt, X-Walltime-Ms
- 
-#
-# accounts
-
+### Custom headers for googlevideo
 - Client-Protocol  
 - Content-Length  
 - Content-Type  
