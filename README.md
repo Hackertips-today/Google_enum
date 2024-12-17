@@ -86,8 +86,6 @@
 - **X-Javascript-User-Agent: google-api-javascript-client/1.1.0
 - **User-Agent: google-api-javascript-client/1.1.0
 - **X-Cloud-Trace-Context: 3b9e6....bbbb4e6b5de7d188479311
----
-
 
 - **X-Playlog-Web**: authorization, authorization, x-goog-authuser, origin  
 - **X-Playlog-Web**: authorization, authorization, content-encoding, content-type, x-goog-authuser, origin  
@@ -98,13 +96,15 @@
 - authorization, content-type, x-goog-api-key, x-goog-authuser, x-user-agent
 
 
+
 X-Playlog-Web,authorization,authorization,x-goog-authuser,origin
 X-Playlog-Web,authorization,authorization,content-encoding,content-type,x-goog-authuser,origin
 X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
-access-control-allow-headers: X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
+access-control-allow-headers: X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth
+x-googapps-allowed-domains
 
- addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations
- authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent
+addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations
+authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent
 
 ## Googlevideo headers
 #### rr3---sn-2imern7d.googlevideo.com
@@ -113,25 +113,25 @@ access-control-allow-headers: X-SupportContent-XsrfToken, Authorization, Content
 #
 # accounts
 
-X-Client-Data: CN7dygE=
-Sec-Fetch-Site: same-origin
-Sec-Fetch-Mode: navigate
-Sec-Fetch-User: ?1
-Sec-Fetch-Dest: document
-Sec-Ch-Ua: "Chromium";v="131", "Not_A Brand";v="24"
-Sec-Ch-Ua-Mobile: ?0
-Sec-Ch-Ua-Full-Version: ""
-Sec-Ch-Ua-Arch: ""
-Sec-Ch-Ua-Platform: "macOS"
-Sec-Ch-Ua-Platform-Version: ""
-Sec-Ch-Ua-Model: ""
-Sec-Ch-Ua-Bitness: ""
-Sec-Ch-Ua-Wow64: ?0
-Sec-Ch-Ua-Full-Version-List: 
-Sec-Ch-Ua-Form-Factors: 
-Referer: https://localhost/
-Accept-Encoding: gzip, deflate, br, zstd
-Priority: u=0, i
+- Client-Protocol  
+- Content-Length  
+- Content-Type  
+- X-Bandwidth-Est  
+- X-Bandwidth-Est2  
+- X-Bandwidth-Est3  
+- X-Bandwidth-App-Limited  
+- X-Bandwidth-Est-App-Limited  
+- X-Bandwidth-Est-Comp  
+- X-Bandwidth-Avg  
+- X-Head-Time-Millis  
+- X-Head-Time-Sec  
+- X-Head-Seqnum  
+- X-Response-Itag  
+- X-Restrict-Formats-Hint  
+- X-Sequence-Num  
+- X-Segment-Lmt  
+- X-Walltime-Ms
+
 
 ## Try these headers
 Client-Protocol: HTTP/2, HTTP/1.1, QUIC
