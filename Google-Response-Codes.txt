@@ -1,0 +1,25 @@
+Based on similar patterns and context from Google-related debugging 
+I have found these headers in response from google, I looked up the 
+details on them and this is what I came up with:
+
+Prefix	Possible Meaning
+STHH	Service or subsystem health issue.
+EPRRS	Error in request routing or a specific endpoint.
+EPR	Error in endpoint processing (possibly an API or service).
+FHEH	Frontend handling error (e.g., a failure in a UI layer).
+GSI	Google Service Identifier (e.g., backend service errors).
+RR	Request routing error (could relate to load balancing).
+HMF	Header or metadata failure (e.g., parsing, missing headers).
+STQF	State query failure or a storage-related issue.
+AF	Authorization failure or access issue.
+GFF	Google frontend framework-related failure.
+STSFSPSF	Likely related to stateful service failures.
+SCZFI	Session or caching zone failure.
+CRF	Cache retrieval failure or invalidation issue.
+SSF	Security subsystem failure.
+MHF	Message handling failure.
+GAEF	Google Analytics or event failure.
+GBLHCF	Backend load balancer health check failure.
+SF	Service failure.
+TTLF	TTL (Time-to-Live) failure (e.g., expired tokens or resources).
+DF	Data fetch or database failure.
