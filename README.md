@@ -105,6 +105,7 @@ addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/L
 - **X-Content-Type-Options:** `nosniff`
 - **X-Frame-Options:** `deny`
 
+
 Firebase
 < access-control-allow-headers: 
 Authorization, 
@@ -148,8 +149,6 @@ Content-Type, Range, X-Firebase-Storage-Version, X-Firebase-Storage-XSRF, X-Fire
 - **X-Goog-Stored-Content-Length: 16384
 - **Content-Language: en
 - **X-Goog-Storage-Class: STANDARD
-
-
 - **X-Playlog-Web**: authorization, authorization, x-goog-authuser, origin  
 - **X-Playlog-Web**: authorization, authorization, content-encoding, content-type, x-goog-authuser, origin  
 - **X-SupportContent-XsrfToken**: Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains  
@@ -158,14 +157,31 @@ Content-Type, Range, X-Firebase-Storage-Version, X-Firebase-Storage-XSRF, X-Fire
 **addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations**
 - authorization, content-type, x-goog-api-key, x-goog-authuser, x-user-agent
 
-X-Playlog-Web,authorization,authorization,x-goog-authuser,origin
-X-Playlog-Web,authorization,authorization,content-encoding,content-type,x-goog-authuser,origin
-X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
-access-control-allow-headers: X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth
-x-googapps-allowed-domains
+- **X-Playlog-Web,authorization,authorization,x-goog-authuser,origin
+- **X-Playlog-Web,authorization,authorization,content-encoding,content-type,x-goog-authuser,origin
+- **X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
+- **access-control-allow-headers: X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth
+- **x-googapps-allowed-domains
 
-addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations
-authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent
+- **Client-Protocol: HTTP/2, HTTP/1.1, QUIC
+- **Content-Length: 0, 512, 1024, 2048
+- **Content-Type: application/json, application/xml, text/plain, text/html
+- **X-Bandwidth-Est: 5000, 10000, 20000, 50000
+- **X-Bandwidth-Est2: 5000, 10000, 20000, 50000
+- **X-Bandwidth-Est3: 5000, 10000, 20000, 50000
+- **X-Bandwidth-App-Limited: 0, 1
+- **X-Bandwidth-Est-App-Limited: 0, 1
+- **X-Bandwidth-Est-Comp: 3000, 6000, 12000, 24000
+- **X-Bandwidth-Avg: 4000, 8000, 16000, 32000
+- **X-Head-Time-Millis: 0, 500, 1000, 1500
+- **X-Head-Time-Sec: 0, 1, 2, 5
+- **X-Head-Seqnum: 1, 10, 100, 1000
+- **X-Response-Itag: 18, 22, 36, 37, 135, 136, 137
+- **X-Restrict-Formats-Hint: mp4, webm, 3gp, flv
+- **X-Sequence-Num: 1, 2, 3, 10, 20, 30
+- **X-Segment-Lmt: 0, 10000, 20000, 50000
+- **X-Walltime-Ms: 0, 500, 1000, 5000, 10000
+- ** authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent
 
 ## Googlevideo headers
 #### rr3---sn-2imern7d.googlevideo.com
