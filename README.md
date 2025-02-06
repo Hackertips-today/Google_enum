@@ -1,9 +1,4 @@
-
-
 # HTTP Response Headers Example
-
-# HTTP Response Headers Example
-
 **Status:** `HTTP/1.1 200 OK`
 
 ### Headers:
@@ -30,8 +25,63 @@
 
 ### Firebase Response Headers:
 - **Access-Control-Allow-Headers:**
+
 -----
 
+# General Headers
+access-control-allow-headers: Authorization, Content-Type, Range, X-Firebase-Storage-Version, X-Firebase-Storage-XSRF, X-Firebase-AppCheck, X-Firebase-GMPID, X-Goog-AuthUser, X-Goog-Upload-Command, X-Goog-Upload-Header-Content-Length, X-Goog-Upload-Header-Content-Type, X-Goog-Upload-Protocol
+access-control-max-age: 3600
+access-control-expose-headers: Content-Range, X-Firebase-Storage-XSRF
+access-control-allow-origin: *
+
+# Custom Google Headers
+X-Supportcontent-Allowapicookieauth: 'true'
+
+# Hashing Information (CRC and MD5)
+x-goog-generation: 1686839683298295
+x-goog-hash: crc32c=Ifjtuw==, md5=HxdfBtIANuU0i2lQLZ3fWw==
+x-goog-hash: crc32c=VhEI8Q==, md5=kpgpWibNC7ksF/7EhKcrIA==
+x-goog-hash: crc32c=HfXXXX==, md5=SrWAtu+ZXXXXpGPOJAMvfQ==
+
+# Storage and Meta Information
+x-goog-metageneration: 2
+x-goog-storage-class: MULTI_REGIONAL
+x-goog-stored-content-encoding: gzip
+x-goog-stored-content-length: 1527
+x-goog-stored-content-length: 2332179
+x-goog-generation: 1415838198105000
+x-goog-storage-class: STANDARD
+x-goog-stored-content-encoding: identity
+
+# Uploader Information
+x-guploader-uploadid: AHmUCY3C3kddcNe0csLNnsp0xAWJ6M6C6XczgZS8PDfy7IEUdI5knR4d4m4Nng64RCwayKCRfNY
+x-guploader-uploadid: ABPtcPr_Ngj-uHmqt44Y2xb2EecrLUrIYMgRb0ldxR1Gd1UoDqehBlittk9LuF73f7Joew9_NQ62dAG5lw
+
+# Content and Language Information
+content-language: en
+
+# Response Headers (CORS and Content)
+vary: origin
+vary: referer
+vary: x-origin
+access-control-allow-origin: https://
+access-control-expose-headers: content-encoding, date, server, content-length, vary
+
+# User-Agent and Client Information
+X-Javascript-User-Agent: google-api-javascript-client/1.1.0
+user-agent: google-api-javascript-client/1.1.0
+X-Cloud-Trace-Context: 3b9e6....bbbb4e6b5de7d188479311
+
+# XSRF and Security Tokens
+X-SupportContent-XsrfToken: Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
+
+# CORS Headers for Allowing Specific Requests
+access-control-allow-headers: X-SupportContent-XsrfToken, Authorization, Content-Type, If-None-Match, X-SupportContent-AllowApiCookieAuth, x-googapps-allowed-domains
+
+# Addon Service Headers (Specific to Google Addons)
+addons-pa.clients6.google.com/$rpc/google.internal.apps.addons.v1.AddOnService/ListInstallations: authorization, content-type, x-goog-api-key, x-goog-authuser, x-user-agent
+
+---------
 **Status:** `HTTP/1.1 200 OK`
 
 - **Date:** `Fri, 15 Nov 2024 02:39:49 GMT`
