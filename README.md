@@ -52,6 +52,7 @@ x-goog-stored-content-length: 2332179
 x-goog-generation: 1415838198105000
 x-goog-storage-class: STANDARD
 x-goog-stored-content-encoding: identity
+x-auto-login: realm=com.google&args=service%3Dmail%26continue%3Dhttps://mail.google.com/mail/u/0/
 
 # Uploader Information
 x-guploader-uploadid: AHmUCY3C3kddcNe0csLNnsp0xAWJ6M6C6XczgZS8PDfy7IEUdI5knR4d4m4Nng64RCwayKCRfNY
