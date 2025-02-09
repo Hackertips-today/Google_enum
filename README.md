@@ -57,6 +57,7 @@ x-auto-login: realm=com.google&args=service%3Dmail%26continue%3Dhttps://mail.goo
 # Uploader Information
 x-guploader-uploadid: AHmUCY3C3kddcNe0csLNnsp0xAWJ6M6C6XczgZS8PDfy7IEUdI5knR4d4m4Nng64RCwayKCRfNY
 x-guploader-uploadid: ABPtcPr_Ngj-uHmqt44Y2xb2EecrLUrIYMgRb0ldxR1Gd1UoDqehBlittk9LuF73f7Joew9_NQ62dAG5lw
+x-auto-login: realm=com.google&args=service%3Dclassroom%26continue%3Dhttps://classroom.google.com/c/NjE3NTMzMjYyMTU5/a/NjI5NTU2OTA0NTk0/details
 
 # Content and Language Information
 content-language: en
