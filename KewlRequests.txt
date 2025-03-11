@@ -1,0 +1,12 @@
+# This is going to be a collection of interesting ways of making web requests
+
+
+# Method 1 - Using --data and delimiter \x0d\x0a to define a request
+curl --path-as-is -i -s -k -X $'TRACK'     -H $'User-Agent: Mozilla' -H $'Connection: keep
+-alive'     --data-binary $'\x0d\x0aX\x0d\x0a0\x0d\x0a\x0d\x0aGET /hosting/googlelogo_color_272x92dp.aspx HTTP/1.0\x0d\x0aHost
+: code.google.com\x0d\x0aAccept-Encoding: gzip, deflate, br\x0d\x0aAccept: */*\x0d\x0aAccept-Language: en-US;q=0.9,en;q=0.8\x0
+d\x0aUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safar
+i/537.36\x0d\x0aConnection: keep-alive\x0d\x0aCache-Control: max-age=0\x0d\x0a\x0d\x0a'     $'http://code.google.com/hosting/g
+ooglelogo_color_272x92dp.aspx' -v -b "sessionid=abc123" -H "Host: code.google.com"
+
+
