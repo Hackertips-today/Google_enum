@@ -27,7 +27,61 @@
 - **Access-Control-Allow-Headers:**
 
 -----
+## Google Headers
 
+- Authorization  
+- Content-ID  
+- Content-Transfer-Encoding  
+- Content-Type  
+- Date  
+- OriginToken  
+- hotrod-board-name  
+- hotrod-chrome-cpu-model  
+- hotrod-chrome-processors  
+- WWW-Authenticate  
+- X-Ad-Manager-Impersonation  
+- X-Ad-Manager-Debug-Info  
+- X-ClientDetails  
+- X-Cloudaicompanion-Trace-Id  
+- X-Compass-Routing-Destination  
+- X-Goog-AuthUser  
+- X-Goog-Encode-Response-If-Executable  
+- X-Google-Consent  
+- X-Google-EOM  
+- X-Goog-Meeting-ABR  
+- X-Goog-Meeting-Botguardid  
+- X-Goog-Meeting-Bot-Info  
+- X-Goog-Meeting-ClientInfo  
+- X-Goog-Meeting-ClientVersion  
+- X-Goog-Meeting-Debugid  
+- X-Goog-Meeting-Identifier  
+- X-Goog-Meeting-Interop-Cohorts  
+- X-Goog-Meeting-Interop-Type  
+- X-Goog-Meeting-OidcIdToken  
+- X-Goog-Meeting-RtcClient  
+- X-Goog-Meeting-StartSource  
+- X-Goog-Meeting-Token  
+- X-Goog-Meeting-Viewer-Token  
+- X-Goog-PageId  
+- X-Goog-Safety-Content-Type  
+- X-Goog-Safety-Encoding  
+- X-Goog-Drive-Client-Version  
+- X-Goog-Drive-Resource-Keys  
+- X-HTTP-Method-Override  
+- X-JavaScript-User-Agent  
+- X-Origin  
+- X-Referer  
+- X-Requested-With  
+- X-Use-HTTP-Status-Code-Override  
+- X-Server-Timeout  
+- X-Goog-First-Party-Reauth  
+- X-Server-Token  
+- x-goog-chat-space-id  
+- x-goog-pan-request-context  
+- X-AppInt-Credentials  
+- X-Goog-Earth-Gcp-Project
+
+-------
 # General Headers
 access-control-allow-headers: Authorization, Content-Type, Range, X-Firebase-Storage-Version, X-Firebase-Storage-XSRF, X-Firebase-AppCheck, X-Firebase-GMPID, X-Goog-AuthUser, X-Goog-Upload-Command, X-Goog-Upload-Header-Content-Length, X-Goog-Upload-Header-Content-Type, X-Goog-Upload-Protocol
 access-control-max-age: 3600
