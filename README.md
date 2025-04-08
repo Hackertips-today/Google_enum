@@ -82,11 +82,31 @@
 - X-Goog-Earth-Gcp-Project
 
 -------
-# General Headers
-access-control-allow-headers: Authorization, Content-Type, Range, X-Firebase-Storage-Version, X-Firebase-Storage-XSRF, X-Firebase-AppCheck, X-Firebase-GMPID, X-Goog-AuthUser, X-Goog-Upload-Command, X-Goog-Upload-Header-Content-Length, X-Goog-Upload-Header-Content-Type, X-Goog-Upload-Protocol
-access-control-max-age: 3600
-access-control-expose-headers: Content-Range, X-Firebase-Storage-XSRF
-access-control-allow-origin: *
+## General Headers
+
+- `access-control-allow-headers`:  
+  - Authorization  
+  - Content-Type  
+  - Range  
+  - X-Firebase-Storage-Version  
+  - X-Firebase-Storage-XSRF  
+  - X-Firebase-AppCheck  
+  - X-Firebase-GMPID  
+  - X-Goog-AuthUser  
+  - X-Goog-Upload-Command  
+  - X-Goog-Upload-Header-Content-Length  
+  - X-Goog-Upload-Header-Content-Type  
+  - X-Goog-Upload-Protocol
+
+- `access-control-max-age`:  
+  - 3600
+
+- `access-control-expose-headers`:  
+  - Content-Range  
+  - X-Firebase-Storage-XSRF
+
+- `access-control-allow-origin`:  
+  - *
 
 # Custom Google Headers
 X-Supportcontent-Allowapicookieauth: 'true'
