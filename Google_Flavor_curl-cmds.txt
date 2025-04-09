@@ -1,0 +1,52 @@
+curl -s -H "Metadata-Flavor: Google" "http://metadata.google.internal/computeMetadata/v1/<path>"
+🔝 Root:
+/
+├── instance/
+├── project/
+🧠 Instance Metadata Paths
+computeMetadata/v1/instance/
+
+Path	Description
+hostname	The internal DNS name of the instance
+id	The unique ID of the instance
+name	The instance name
+zone	The zone (e.g. projects/123/zones/us-central1-a)
+machine-type	Full URL to the machine type
+attributes/	Custom user-defined attributes
+disks/	Info about attached disks
+image	Image the instance was booted from
+tags	Network tags
+network-interfaces/	IP address info (internal/external)
+service-accounts/	Service account data (see next section)
+description	Custom description of the VM
+cpu-platform	CPU model
+maintenance-event	Maintenance info (on live migrations)
+boot-disk/	Info on the boot disk
+licenses/	Software licenses (e.g., Windows)
+
+🔐 Instance Service Account Paths (high risk)
+computeMetadata/v1/instance/service-accounts/
+
+Path	Description
+default/	Default service account
+default/email	Email of the service account
+default/aliases	Aliases for the account
+default/token	🚨 Access token (short-lived OAuth2 token)
+default/scopes	Scopes granted to the account
+default/identity?audience=...	Identity tokens for workload identity federation
+You can also replace default/ with a specific service account email.
+
+🏗️ Project Metadata Paths
+computeMetadata/v1/project/
+Path	Description
+project-id	Your GCP project ID
+numeric-project-id	Numeric form of the project ID
+attributes/	Custom project-level attributes
+🧪 Enumerate All Paths (Scripting)
+
+If you want to crawl all paths recursively, try:
+
+curl -s -H "Metadata-Flavor: Google" "http://metadata.google.internal/computeMetadata/v1/?recursive=true"
+Or for JSON:
+
+curl -s -H "Metadata-Flavor: Google" "http://metadata.google.internal/computeMetadata/v1/?recursive=true&alt=json" | jq
